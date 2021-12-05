@@ -1,0 +1,31 @@
+{
+  "name": "client-car-pledge",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.5.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "emotion-server": "^11.0.0",
+    "lazysizes": "^5.3.2",
+    "next": "12.0.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "swr": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/node": "^16.11.11",
+    "@types/react": "17.0.37",
+    "eslint": "8.4.0",
+    "eslint-config-next": "12.0.5",
+    "typescript": "4.5.2"
+  }
+}
