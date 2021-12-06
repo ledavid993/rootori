@@ -52,7 +52,7 @@ export const perksGrid = css`
 
   div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
