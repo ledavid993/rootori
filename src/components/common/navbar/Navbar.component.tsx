@@ -29,7 +29,7 @@ const Navbar = () => {
         <Logo href="/" as="/" onClick={handleClick}>
           Rootori
         </Logo>
-        <GlassPlane>
+        <GlassPlane style={{ display: "flex" }}>
           <GiHamburgerMenu size={35} />
         </GlassPlane>
       </NavbarPresenter>

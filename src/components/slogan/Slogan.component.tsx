@@ -5,10 +5,9 @@ import { SloganContainer, Title } from "./Slogan.styled";
 const Slogan = () => {
   return (
     <SloganContainer>
-      <FaCar size={40} color="#31ffff" />
       <Title>
-        <p>Upgrade Your Car,</p>
-        <p>not your payment.</p>
+        <p>Forget the hassle of maintaining your car.</p>
+        <p>We do it for you.</p>
       </Title>
       <p>Order in minutes. Zero down.</p>
       <p>Free delivery. Save up to 25%</p>

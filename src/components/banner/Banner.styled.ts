@@ -2,12 +2,21 @@ import styled from "@emotion/styled";
 
 export const BannerContainer = styled.div`
   position: relative;
+  overflow: hidden;
 
   img {
     position: relative;
     right: 348px;
     height: 700px;
     display: block;
+    filter: brightness(60%);
+  }
+
+  @media screen and (min-width: 600px) {
+    img {
+      right: 0;
+      height: 900px;
+    }
   }
 `;
 
@@ -33,7 +42,7 @@ export const BannerButton = styled.div`
   text-align: center;
   color: white;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-height: 70px;

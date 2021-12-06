@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["node", "react-emotion"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -19,6 +20,7 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "suppressImplicitAnyIndexErrors": true,
+    "jsxImportSource": "@emotion/react",
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["src/components/*"],

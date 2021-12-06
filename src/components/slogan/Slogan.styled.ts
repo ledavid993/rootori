@@ -8,6 +8,7 @@ export const SloganContainer = styled.div`
 
   p {
     margin: 3px;
+    letter-spacing: 1.5px;
   }
 `;
 

@@ -11,12 +11,8 @@ import {
 const Footer = () => (
   <FooterContainer>
     <FooterPresenter>
-      <Logo href="/">conduit</Logo>
-      <Attribution>
-        An interactive learning project from{" "}
-        <Link href="https://thinkster.io">Thinkster</Link>. Code &amp; design
-        licensed under MIT.
-      </Attribution>
+      <Logo href="/">Rootori</Logo>
+      <Attribution>Copyright &copy; 3000 </Attribution>
     </FooterPresenter>
   </FooterContainer>
 );
