@@ -1,17 +1,16 @@
 import React from "react";
-import { FaCar } from "react-icons/fa";
-import { SloganContainer, Title } from "./Slogan.styled";
+import { sloganContainer, sloganTitle } from "./Slogan.styles";
 
 const Slogan = () => {
   return (
-    <SloganContainer>
-      <Title>
+    <div css={sloganContainer}>
+      <h1 css={sloganTitle}>
         <p>Forget the hassle of maintaining your car.</p>
         <p>We do it for you.</p>
-      </Title>
+      </h1>
       <p>Order in minutes. Zero down.</p>
       <p>Free delivery. Save up to 25%</p>
-    </SloganContainer>
+    </div>
   );
 };
 
